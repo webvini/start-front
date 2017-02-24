@@ -1,6 +1,9 @@
 {
   "name": "projectName",
   "version": "1.0.0",
+  "authors": [
+    "Vinicius Silva <webvini.silva@gmail.com>"
+  ],
   "dependencies": {},
   "devDependencies": {
     "browser-sync": "^2.18.8",

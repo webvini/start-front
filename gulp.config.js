@@ -46,7 +46,8 @@ module.exports = {
 			},
 			css: {
 				src: [
-					src + 'libraries/font-awesome/css/font-awesome.css'
+					src + 'libraries/font-awesome/css/font-awesome.css',
+					src + 'libraries/bootstrap/dist/css/bootstrap.css'
 				],
 				dest: dist + 'styles/'
 			}

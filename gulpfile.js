@@ -49,6 +49,7 @@ gulp.task('sass', function(){
 gulp.task('csslibraries', function(){
 	return gulp.src( config.paths.libraries.css.src )
 		.pipe(concat('libraries.min.css'))
+		.pipe(cleanCSS())
 		.pipe(autoprefixer())
 		.pipe(gulp.dest( config.paths.libraries.css.dest ));
 });
